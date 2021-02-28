@@ -169,7 +169,7 @@ On the other hand, if it's during the day time, a sun will be diaplayed.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
-https://youtu.be/ZPuUuGyGg9o
+https://youtu.be/ZPuUuGyGg9o   
 https://youtu.be/IIfrV2DGWEk
 
 ## Part G. 
