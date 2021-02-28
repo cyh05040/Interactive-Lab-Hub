@@ -1,9 +1,14 @@
 import time
+import datetime
 import subprocess
 import digitalio
 import board
+import random
+from random import randint
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+from time import strftime, sleep
+
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -60,6 +65,13 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
+
+    
 
 while True:
     # Draw a black filled box to clear the image.
@@ -67,6 +79,41 @@ while True:
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
 
+    current = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+    hour = int(current[-8:-6])
+    sec = int(current[-1:])
+    sunset_time = 18
+
+    if buttonA.value and buttonB.value:
+        backlight.value = False  # turn off backlight
+    else:
+        backlight.value = True  # turn on backlight
+    
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        if (sec % 2 == 0):
+            color = 'blue'
+        else:
+            color  = 'orange'
+        draw.text((30, 50), current, font=font, fill=color)
+
+
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        if hour >= sunset_time:
+            num_star = 0
+            while num_star < hour:
+                x = random.randint(0, 240) 
+                y = random.randint(0, 135) 
+                draw.line((x+6, y+2, x+2, y+11), fill='yellow')
+                draw.line((x+6, y+2, x+10, y+11), fill='yellow')
+                draw.line((x+1, y+5, x+11, y+5), fill='yellow')
+                draw.line((x+11, y+5, x+2, y+11), fill='yellow')
+                draw.line((x+1, y+5, x+10, y+11), fill='yellow')
+                num_star+=1
+        else:
+            draw.ellipse((30, 30, 100, 100), fill = 'yellow', outline ='orange')
+
+
+
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.3)
