@@ -8,6 +8,10 @@ It is worth spending a little time thinking about how you mark time, and what wo
 
 **Please indicate anyone you collaborated with on this Lab here.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Ming-Chun Lu
+Justin Liu
+Cheng-Wei Hu
+Angus Lin
 
 ## Prep
 
@@ -148,9 +152,16 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 ## Part E.
 ## Modify the barebones clock to make it your own
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)   
+When the top button is pressed it shows the current date and the time.
 
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.  
+I made it an interactive clock. By pressing onto the top button, it shows the detailed date and time. 
+By pressing onto the bottom button, the clock will check whether if the time has passed 17:00.   
+If it has, it will show as many stars on the display as the hour of the time.   
+For example, if it's 17:56 it shows 17 stars and if it's 20:34, it shows 20 stars.   
+The stars are displyed in random locations within the display a starry night vibe.   
+On the other hand, if it's during the day time, a sun will be diaplayed. 
 
 **A copy of your code should be in your Lab 2 Github repo.**
 
@@ -158,6 +169,8 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
+https://youtu.be/ZPuUuGyGg9o
+https://youtu.be/IIfrV2DGWEk
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
