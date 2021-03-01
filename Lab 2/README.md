@@ -175,5 +175,5 @@ On the other hand, if it's during the day time, a sun will be diaplayed.
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-!(IDD_Lab2_PartG.jpg)
+![Music and weather implemented clock](IDD_Lab2_PartG.jpg)
 
