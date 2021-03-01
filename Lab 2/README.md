@@ -175,7 +175,7 @@ On the other hand, if it's during the day time, a sun will be diaplayed.
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-![Music and weather implemented clock](IDD_Lab2_PartG.jpg)
+![Music and weather implemented clock](IDD_Lab2_PartG.jpg)   
 I would refer the top buttun as the green buttun and the bottom buttun as the red button here.   
 By not holding any button, the clock would just show the time like a regular clock, with labels such as Brunch, Lunch, Tea, Beer to make it more fun. 
 When the red buttun is activated, the clock would show the weather of the day to give user a better sense of what do look out for. 
