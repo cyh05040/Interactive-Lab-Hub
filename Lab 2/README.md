@@ -168,9 +168,9 @@ On the other hand, if it's during the day time, a sun will be diaplayed.
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-**Take a video of your PiClock.**
-https://youtu.be/ZPuUuGyGg9o   
-https://youtu.be/IIfrV2DGWEk
+**Take a video of your PiClock.**  
+[Day time](https://youtu.be/ZPuUuGyGg9o)   
+[Night time](https://youtu.be/IIfrV2DGWEk)
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
