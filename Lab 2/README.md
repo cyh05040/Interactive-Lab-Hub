@@ -243,6 +243,15 @@ git push
 
 After that, git will ask you to login to your github account to upload.
 
+
+![Time showing](IMG_1232.jpg)
+![Location showing](IMG_1233.jpg)
+![Day time](IMG_1234.jpg)
+![Night time](IMG_1235.jpg)
+
+
+
+
 ## Part F. 
 ## Make a short video of your modified updated barebones PiClock
 
