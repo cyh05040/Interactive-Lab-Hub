@@ -212,3 +212,51 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+
+## Part E.
+## Modify the barebones clock to make it your own
+
+Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)   
+When the top button is pressed it shows the current date and the time.
+
+Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.  
+I made it an interactive clock, which shows the detailed date and time with a slightly larger font.  
+I also made it the detailed time and date into two lines with two different colors: blue and orange. Every second the two colors switches.
+By pressing onto the top button, the clock will check the location of the area and shows the name of the location and an iconic symbol of the location 
+(Empire State Building for New York City)  
+By pressing onto the bottom button, the clock will check whether if the time has passed 17:00.   
+If it has, it will show a moon and also as many stars on the display as the hour of the time.   
+For example, if it's 17:56 it shows 17 stars and if it's 20:34, it will show a moon and 20 stars.   
+The stars are displyed in random locations within the display a starry night vibe.    
+On the other hand, if it's during the day time, a sun and clouds will be diaplayed.   
+Also for either button pressed, the clock will display the temperature of the location in Fahrenheit.
+
+**A copy of your code should be in your Lab 2 Github repo.**
+
+You can push to your personal github repo by adding the files here, commiting and pushing.
+
+```
+git add .
+git commit -m'your message here'
+git push
+```
+
+After that, git will ask you to login to your github account to upload.
+
+## Part F. 
+## Make a short video of your modified barebones PiClock
+
+**Take a video of your PiClock.**  
+[Day time](https://youtu.be/ZPuUuGyGg9o)   
+[Night time](https://youtu.be/IIfrV2DGWEk)
+
+## Part G. 
+## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+![Music and weather implemented clock](IDD_Lab2_PartG.jpg)
+
+I would refer the top buttun as the green buttun and the bottom buttun as the red button here.   
+By not holding any button, the clock would just show the time like a regular clock, with labels such as Brunch, Lunch, Tea, Beer to make it more fun. 
+When the red buttun is activated, the clock would show the weather of the day to give user a better sense of what do look out for. 
+When the green buttun is activated, the clock would show a song that best represent the weather of the day and provide more fun to the user.   
+For example, the user can guess how the weather like outside, just by listneing to the music provided. 
