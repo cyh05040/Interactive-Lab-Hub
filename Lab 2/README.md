@@ -247,16 +247,11 @@ After that, git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**  
-[Day time](https://youtu.be/ZPuUuGyGg9o)   
-[Night time](https://youtu.be/IIfrV2DGWEk)
+[Day time Part 2](https://www.youtube.com/watch?v=VQzlUkuDzVk)   
+[Night time Part 2](https://www.youtube.com/watch?v=oxneYjGGiIQ)
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 ![Music and weather implemented clock](IDD_Lab2_PartG.jpg)
 
-I would refer the top buttun as the green buttun and the bottom buttun as the red button here.   
-By not holding any button, the clock would just show the time like a regular clock, with labels such as Brunch, Lunch, Tea, Beer to make it more fun. 
-When the red buttun is activated, the clock would show the weather of the day to give user a better sense of what do look out for. 
-When the green buttun is activated, the clock would show a song that best represent the weather of the day and provide more fun to the user.   
-For example, the user can guess how the weather like outside, just by listneing to the music provided. 
