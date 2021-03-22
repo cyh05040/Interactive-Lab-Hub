@@ -104,6 +104,12 @@ while True:
     draw.text((80, 80), current_time, font=font_three, fill=color_two)
 
     if buttonB.value and not buttonA.value:  # just button A pressed
+        if (sec % 2 == 0):
+            color = 'green'
+        else:
+            color  = 'orange'
+        draw.text((30, 50), current, font=font, fill=color)
+        
         draw.text((10, 10), 'You are in New York City', font=font_one, fill='white')
         draw.line((20, 130, 50, 130), fill='white')
         draw.line((20, 60, 20, 130), fill='white')
@@ -120,12 +126,6 @@ while True:
         draw.line((33, 45, 33, 50), fill='white')
         draw.line((37, 45, 37, 50), fill='white')
         draw.line((35, 35, 35, 45), fill='white')
-
-
-
-
-
-
 
 
 
@@ -149,6 +149,7 @@ while True:
                 draw.line((x+1, y+5, x+10, y+11), fill='yellow')
                 num_star+=1
         else:
+            draw.ellipse((30, 30, 100, 100), fill = 'blue', outline ='blue')
             draw.text((20, 100), '35℉', font=font_one, fill='white')
             draw.ellipse((20, 20, 80, 80), fill = 'orange', outline ='orange')
             num_cloud = 0
