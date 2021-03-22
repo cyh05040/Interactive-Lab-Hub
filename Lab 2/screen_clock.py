@@ -91,7 +91,7 @@ while True:
     
     if buttonB.value and not buttonA.value:  # just button A pressed
         if (sec % 2 == 0):
-            color = 'blue'
+            color = 'green'
         else:
             color  = 'orange'
         draw.text((30, 50), current, font=font, fill=color)
@@ -110,7 +110,7 @@ while True:
                 draw.line((x+1, y+5, x+10, y+11), fill='yellow')
                 num_star+=1
         else:
-            draw.ellipse((30, 30, 100, 100), fill = 'yellow', outline ='orange')
+            draw.ellipse((30, 30, 100, 100), fill = 'blue', outline ='blue')
 
 
 
