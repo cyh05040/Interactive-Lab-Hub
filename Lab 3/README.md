@@ -68,7 +68,7 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
-()
+![SmartyPi Toilet](IMG_1366.jpg)
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
