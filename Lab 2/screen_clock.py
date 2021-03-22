@@ -59,7 +59,11 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font_one = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font_two = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 25)
+font_three = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 36)
+font_four = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 48)
+
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -78,27 +82,62 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-
     current = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+    current_date = datetime.datetime.now().strftime("%m/%d/%Y")
+    current_time = datetime.datetime.now().strftime("%H:%M:%S")
     hour = int(current[-8:-6])
     sec = int(current[-1:])
-    sunset_time = 18
+    sunset_time = 20
 
-    if buttonA.value and buttonB.value:
-        backlight.value = False  # turn off backlight
+    # if buttonA.value and buttonB.value:
+    #     backlight.value = False  # turn off backlight
+    # else:
+    backlight.value = True  # turn on backlight
+    if (sec % 2 == 0):
+        color_one = 'blue'
+        color_two = 'orange'
+
     else:
-        backlight.value = True  # turn on backlight
-    
+        color_one = 'orange'
+        color_two  = 'blue'
+    draw.text((92, 50), current_date, font=font_two, fill=color_one)
+    draw.text((80, 80), current_time, font=font_three, fill=color_two)
+
     if buttonB.value and not buttonA.value:  # just button A pressed
         if (sec % 2 == 0):
             color = 'green'
         else:
             color  = 'orange'
         draw.text((30, 50), current, font=font, fill=color)
+        
+        draw.text((10, 10), 'You are in New York City', font=font_one, fill='white')
+        draw.line((20, 130, 50, 130), fill='white')
+        draw.line((20, 60, 20, 130), fill='white')
+        draw.line((50, 60, 50, 130), fill='white')
+        draw.line((20, 60, 50, 60), fill='white')
+        draw.line((20, 60, 25, 55), fill='white')
+        draw.line((50, 60, 45, 55), fill='white')
+        draw.line((25, 55, 45, 55), fill='white')
+        draw.line((30, 50, 40, 50), fill='white')
+        draw.line((30, 50, 30, 55), fill='white')
+        draw.line((40, 50, 40, 55), fill='white')
+        draw.line((33, 45, 37, 45), fill='white')
+        draw.line((33, 45, 37, 45), fill='white')
+        draw.line((33, 45, 33, 50), fill='white')
+        draw.line((37, 45, 37, 50), fill='white')
+        draw.line((35, 35, 35, 45), fill='white')
 
+
+
+        # draw.line((x+1, y+5, x+11, y+5), fill='white')
+        # draw.line((x+11, y+5, x+2, y+11), fill='white')
+        # draw.line((x+1, y+5, x+10, y+11), fill='white')
+    
 
     if buttonA.value and not buttonB.value:  # just button B pressed
         if hour >= sunset_time:
+            draw.text((20, 100), '35℉', font=font_one, fill='white')
+            draw.text((20, 10), "( ͡❛ ͜ʖ ͡❛)", font=font_three, fill='orange')
             num_star = 0
             while num_star < hour:
                 x = random.randint(0, 240) 
@@ -111,6 +150,17 @@ while True:
                 num_star+=1
         else:
             draw.ellipse((30, 30, 100, 100), fill = 'blue', outline ='blue')
+            draw.text((20, 100), '35℉', font=font_one, fill='white')
+            draw.ellipse((20, 20, 80, 80), fill = 'orange', outline ='orange')
+            num_cloud = 0
+            while num_cloud < hour:
+                x = random.randint(0, 240) 
+                y = random.randint(0, 135) 
+                draw.text((x, y), '☁', font=font_one, fill='grey')
+                num_cloud+=1
+            
+
+            
 
 
 
