@@ -87,7 +87,7 @@ while True:
     current_time = datetime.datetime.now().strftime("%H:%M:%S")
     hour = int(current[-8:-6])
     sec = int(current[-1:])
-    sunset_time = 20
+    sunset_time = 10
 
     # if buttonA.value and buttonB.value:
     #     backlight.value = False  # turn off backlight
