@@ -72,7 +72,12 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
-*what was the feedback? Who did it come from?*
+Justin Liu:   
+I think the idea is brilliant, especially the part how you envision toilet as a robot. I love how you incorporate the weighing function onto the toilet, which can replace a scale in your bathroom. I would be interested to see if it's possible to measure more data such as your body fat or metabolism.    
+    
+Ming-Chun Lu: 
+Very nice idea! I would buy one in my bathroom. I wish there is a heating and cooling feature for you can install and ask the toilet to change the tempurature through voice. 
+
 
 ## Prototype your system
 
@@ -81,7 +86,10 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-*Document how the system works*
+*Document how the system works*    
+The device, I called it SmartyPi Toilet. It has several feature, which is quite similar to having a smart home speaker within a toilet. For example, it can order more toilet papers when you are out and also play some music during the process to make the user feel better.   
+Furthermore, it has a couple advanced feature that home speakers aren't able to do such as flushing the toilet with voice and mearue user's weight when they are sitting on the toilet. It has a scale sensor within the toilet seat and it will record your weight into the Rasberry Pi. Every time the user, ask to have his or her weight measured, SpartyPi toilet would inform the user that if he or she has gained weight or lost weight. 
+
 
 *Include videos or screencaptures of both the system and the controller.*
 
