@@ -109,11 +109,17 @@ Furthermore, it has a couple advanced feature that home speakers aren't able to 
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+    
+Two people tested the system - Ming-Chun (Jeff) Lu, Justin Liu.  
+
+
+
 
 Answer the following:
 
-### What worked well about the system and what didn't?
-*your answer here*
+### What worked well about the system and what didn't?   
+The open and close feature of the smarty pi toilet worked very well. The users really like how the toilet open in time and closed it in a smooth motion. They appreciate how the toilet seat doesn't just slams down, which makes the device looks even smarter.    
+The measure weight feature doesn't work as well as imagined. It is mainly due to people got long legs and it would be too difficult to measure the user's weight correctly while having their feet touching the floor. This would be something I cant think about and possibly redesign.   
 
 ### What worked well about the controller and what didn't?
 
