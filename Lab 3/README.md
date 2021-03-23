@@ -92,10 +92,10 @@ Furthermore, it has a couple advanced feature that home speakers aren't able to 
 
 
 *Include videos or screencaptures of both the system and the controller.*
-[Open Toilet Failure](https://youtu.be/Rh7ZgXMFY70)
-[Open and Close Toilet Success](https://youtu.be/Wlf6470p3YE)
-[Order Toilet Paper and Play Music](https://youtu.be/Dq5ogA1W3oU)
-[Measure User Weight](https://youtu.be/kOcGTPgqF98)
+[Open Toilet Failure](https://youtu.be/Rh7ZgXMFY70)    
+[Open and Close Toilet Success](https://youtu.be/Wlf6470p3YE)    
+[Order Toilet Paper and Play Music](https://youtu.be/Dq5ogA1W3oU)    
+[Measure User Weight](https://youtu.be/kOcGTPgqF98)     
 
 
 ## Test the system
