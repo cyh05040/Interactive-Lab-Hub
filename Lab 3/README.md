@@ -99,7 +99,8 @@ Furthermore, it has a couple advanced feature that home speakers aren't able to 
 ![SmartyPi Toilet](close.jpg)  
 ![SmartyPi Toilet](Photo_measure+weight.jpg)  
 
-<br>
+
+       
 [Open Toilet Failure](https://youtu.be/Rh7ZgXMFY70)    
 [Open and Close Toilet Success](https://youtu.be/Wlf6470p3YE)    
 [Order Toilet Paper and Play Music](https://youtu.be/Dq5ogA1W3oU)    
