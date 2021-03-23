@@ -91,7 +91,7 @@ The device, I called it SmartyPi Toilet. It has several feature, which is quite 
 Furthermore, it has a couple advanced feature that home speakers aren't able to do such as flushing the toilet with voice and mearue user's weight when they are sitting on the toilet. It has a scale sensor within the toilet seat and it will record your weight into the Rasberry Pi. Every time the user, ask to have his or her weight measured, SpartyPi toilet would inform the user that if he or she has gained weight or lost weight. 
 
 
-*Include videos or screencaptures of both the system and the controller.*
+*Include videos or screencaptures of both the system and the controller.*    
 [Open Toilet Failure](https://youtu.be/Rh7ZgXMFY70)    
 [Open and Close Toilet Success](https://youtu.be/Wlf6470p3YE)    
 [Order Toilet Paper and Play Music](https://youtu.be/Dq5ogA1W3oU)    
