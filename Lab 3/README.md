@@ -75,7 +75,7 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 Justin Liu:   
 I think the idea is brilliant, especially the part how you envision toilet as a robot. I love how you incorporate the weighing function onto the toilet, which can replace a scale in your bathroom. I would be interested to see if it's possible to measure more data such as your body fat or metabolism.    
     
-Ming-Chun Lu: 
+Ming-Chun Lu:   
 Very nice idea! I would buy one in my bathroom. I wish there is a heating and cooling feature for you can install and ask the toilet to change the tempurature through voice. 
 
 
