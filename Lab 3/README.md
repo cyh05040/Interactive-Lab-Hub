@@ -123,14 +123,17 @@ The measure weight feature doesn't work as well as imagined. It is mainly due to
 
 ### What worked well about the controller and what didn't?
 
-*your answer here*
+The controller works very well and is easy to use with  no obvious latency.   
 
-### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
+### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?    
 
-*your answer here*
+The react time of the device would decide a big part of the user experience and the time latency can be a problem. It is imperative for the user to see the according reaction within two seconds, anything above that would be a little confusing for the user. Also, only limited action can be conducted, for example it can only do one action at once. Last but not least, smarty pi toilet actions can only be conducted in a quiet place without too much noise.   
+   
 
+### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?   
 
-### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
+For the open and close seat function: It would be very interesting if the user could adjust the seat opening and closing speed according to his or her preference.   
+For the play music function: It would be more user friendly could sense the volume and give him or her the option to adjust accordingly. Furthermore, it can detect the current noise level in the room and decide on the volume of music accordingly.   
+For the weight measuring feature: It will help the user to keep track of his or her weight and compare with the previous data and provide user the trend of the weight. (If it's getting heavier/ lighter by what percentage.)
 
-*your answer here*
 
