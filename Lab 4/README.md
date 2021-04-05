@@ -131,3 +131,83 @@ Make a paper display that uses the servo to show how many times a button on the 
 
 
 **a. Make a video of your paper display in action.**
+
+
+
+
+
+
+
+
+![Beer Dispenser](Kirin-1.jpg)  
+![Beer Dispenser](Kirin-2.jpg)  
+![Beer Dispenser](Kirin-3.jpg)  
+[Beer Dispenser](https://youtu.be/Rh7ZgXMFY70)    
+
+
+
+
+### The Idea
+
+A lot of times, it's difficult to keep track of the amount of beers that you drink in a night. No beer dispenser on the market indicates how much beer has been poured out, and this has been aa problem. The users won't be able to know untill they finish the whole keg of beer. It's extremely unhealthy and difficult for users to be on top of how much alchohol they have been taking in. 
+
+**a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
+
+Kirin Brewery sells two of the most popular beers in Japan: Kirin Lager, one of the country's oldest beer brands which started brewing in 1888; and Ichiban Shibori. As a beer lover myself for this lab, I decided to make a kirin beer dispenser that can pour beer when you push down the "POUR" knob as well as a button "ORDER" to order refillable beer box. For the pouring function, it would not stop pouring beer unless you lift the knob back up. As for the order function, everytime you press on it, it will order an refillable box of beer to your home. It's a simple and convinient solution for health-conscious beer lovers. 
+
+**b. Make a video of your paper display in action.**
+
+The paper display:
+[Paper Display](https://youtu.be/AOa8Cmmufok)
+
+
+**c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+Since there is liquid passing through the box, the main design of such device would have to be water proof. Therefore the entire beer box would have to be covered with tape to prevent liquid from damaging the beer dispenser. Besides, the box would have to be sturdy enough to handle the vibration caused by the flow of beer. In terms of size, the box determiens how much beer can be dispensed, therefore it can't be too small. Also, the screen has to be big enough for the user to see and the depensing outlet would have to fit perfectly and control the flow of beer coming out.
+
+### Part D
+### Materiality
+
+**Open Ended**: We are putting very few constraints on this part but we want you to get creative.
+
+Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
+
+**a. document the material prototype.** Include candidates that were considered even if they were set aside later.
+
+Various methods could be used to build this prototype including 3D printing, laser-cutting acrylic, cardboard, and paper.
+
+**b. explain the selection.**
+
+These were the considerations
+- **3D printing** the display casing and the doorhandle would yield the most realistic/aesthetic results but would take too much effort and time to model and create.
+- **Laser-cutting acrylic** would be much more time-efficient but would still be too costly for an interactive prototype device.
+- **Paper** would be the quickest to create with but would be too flimsy to hold up as a door handle.
+- **Cardboard** was chosen to be both the most cost-effective and time-efficient method to create a structurally-sound interactive prototype.
+
+### Part 2.
+
+Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
+
+### Looks Like
+![LooksLike](WorksLike.jpg)
+
+### Works Like
+
+![WorkLike](WorksLike.jpg)
+
+### Acts Like
+
+![Looks Like](Kirin-1.jpg)  
+![Looks Like](Kirin-2.jpg)  
+![Looks Like](Kirin-3.jpg)  
+![ActsLike](https://www.youtube.com/watch?v=l0KRiqi_zEc)
+
+Reiterating:
+### Deliverables for this lab are: 
+1. Sketches/photos of device designs
+1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+3. "Works like" prototypes: show us what the device can do
+4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+
