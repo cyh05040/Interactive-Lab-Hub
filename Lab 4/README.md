@@ -133,7 +133,7 @@ Make a paper display that uses the servo to show how many times a button on the 
 
 ### The Idea
 
-A lot of times, it's difficult to keep track of the amount of beers that you drink in a night. No beer dispenser on the market indicates how much beer has been poured out, and this has been aa problem. The users won't be able to know untill they finish the whole keg of beer. It's extremely unhealthy and difficult for users to be on top of how much alchohol they have been taking in. 
+A lot of times, it's difficult to keep track of the amount of beers that you drink in a night. No beer dispenser on the market indicates how much beer has been poured out, and this has been a problem. The users won't be able to know untill they finish the whole keg of beer. It's extremely unhealthy and difficult for users to be on top of how much alchohol they have been taking in. 
 
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
@@ -170,7 +170,7 @@ These were the considerations
 
 ### Part 2.
 
-Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
+Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design
 
 ### Looks Like
 ![LooksLike](LooksLike.jpg)
