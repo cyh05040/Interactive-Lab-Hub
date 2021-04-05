@@ -142,7 +142,7 @@ Kirin Brewery sells two of the most popular beers in Japan: Kirin Lager, one of 
 **b. Make a video of your paper display in action.**
 
 The paper display:
-[Paper Display](https://youtu.be/AOa8Cmmufok)
+[Video: Paper Display](https://youtu.be/AOa8Cmmufok)
 
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
@@ -184,7 +184,7 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 ![Looks Like](Kirin-1.jpg)  
 ![Looks Like](Kirin-2.jpg)  
 ![Looks Like](Kirin-3.jpg)  
-![Acts Like](https://www.youtube.com/watch?v=l0KRiqi_zEc)
+![Video: Acts Like](https://www.youtube.com/watch?v=l0KRiqi_zEc)
 
 Reiterating:
 ### Deliverables for this lab are: 
