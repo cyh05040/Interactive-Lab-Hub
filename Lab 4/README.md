@@ -186,7 +186,7 @@ These were the considerations
 
 ### Part 2.
 
-Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
+Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design
 
 ### Looks Like
 ![LooksLike](WorksLike.jpg)
