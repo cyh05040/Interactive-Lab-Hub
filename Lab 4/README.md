@@ -130,22 +130,6 @@ Here is an example:
 Make a paper display that uses the servo to show how many times a button on the front has been pressed (or any other thing you can sense or count). Ideally you should design it so that you can slide the breadboard out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
 
 
-**a. Make a video of your paper display in action.**
-
-
-
-
-
-
-
-
-![Beer Dispenser](Kirin-1.jpg)  
-![Beer Dispenser](Kirin-2.jpg)  
-![Beer Dispenser](Kirin-3.jpg)  
-[Beer Dispenser](https://youtu.be/Rh7ZgXMFY70)    
-
-
-
 
 ### The Idea
 
@@ -189,7 +173,7 @@ These were the considerations
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
 
 ### Looks Like
-![LooksLike](WorksLike.jpg)
+![LooksLike](LooksLike.jpg)
 
 ### Works Like
 
@@ -200,7 +184,7 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 ![Looks Like](Kirin-1.jpg)  
 ![Looks Like](Kirin-2.jpg)  
 ![Looks Like](Kirin-3.jpg)  
-![ActsLike](https://www.youtube.com/watch?v=l0KRiqi_zEc)
+![Acts Like](https://www.youtube.com/watch?v=l0KRiqi_zEc)
 
 Reiterating:
 ### Deliverables for this lab are: 
