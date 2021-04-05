@@ -184,7 +184,7 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 ![Looks Like](Kirin-1.jpg)  
 ![Looks Like](Kirin-2.jpg)  
 ![Looks Like](Kirin-3.jpg)  
-![Video: Acts Like](https://www.youtube.com/watch?v=l0KRiqi_zEc)
+[Video: Acts Like](https://www.youtube.com/watch?v=l0KRiqi_zEc)
 
 Reiterating:
 ### Deliverables for this lab are: 
