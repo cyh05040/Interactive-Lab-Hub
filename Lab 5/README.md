@@ -127,15 +127,16 @@ According to CDC, careless driving is responsible for 33% of fatal crashes in Am
 1. Visual distractions that take your eyes off of the road  
 2. Manual distractions that take your hands off the wheel  
 3. Cognitive distractions that take your mind off of driving  
-https://www.cdc.gov/transportationsafety/distracted_driving/index.html  
 <br>
+https://www.cdc.gov/transportationsafety/distracted_driving/index.html  
+<br><br>
 While it's difficult to address the third type, visual distractions and manual distractions can be mitigated using computer vision technology. Identifying tired or distracted drivers nehind the wheel could effectively reduce the percentage of fatal crashes caused by careless driving especially for those whose jobs are driving such as bus and taxi drivers.  
 Although autonomous driving would be the next big thing, it is still important for monitor driver's condition while on the road at the moment. (2021) I came up with the idea of identifying condition of drivers while on the road.  
   
 A google TeachableMachine was trained to detect either a driver is currently tired, distracted or energetic.
 
 ![Distracted](./image/Lab5-Distracted.PNG)
-![Energetic](./image/Energetic.PNG)
+![Energetic](./image/Lab5-Energetic.PNG)
 ![FallingAsleep](./image/Lab5-FallingAsleep.PNG)
 
 This is so exciting! Test the model with your computer webcam.
