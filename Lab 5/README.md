@@ -162,8 +162,6 @@ For example:
 3. When it fails, why does it fail?  
 4. Based on the behavior you have seen, what other scenarios could cause problems?
 
-1. When does it what it is supposed to do?  
-
 With myself in the camera, the model works well most of the time. This is mainly due to the same person for training and testing and the decent amount of training images data. (867 images for class Falling Alseep, 847 images for Energetic, 460 images for Distracted)
 <br>
 I tried out different possible scenarios for a drivers. For example, drivers wearing glasses, driver wearing sunglasses as well as no driver on the car. The reason why I inputted the scenario of no driver on the car is because I plan to develop an alarming system when driver's falling asleep or distracted, and I don't want to start a false alarm when the driver leaves or changes shift.  
@@ -183,8 +181,6 @@ Energetic with Glasses
 ![EnergeticGlasses](./image/Lab5-EnergeticWithGlasses.PNG)  
 <br>
 
-2. When does it fail?
-3. When it fails, why does it fail?   
 
 The system fails when driver is wearing sunglasses, also when no driver is in front of the camera. This was predictable being no training data of driver wearing sunglasses or leaving the seat was added into the training process. 
 Besides, the percentage fluctuates from time to time this might due to two reasons.  
@@ -196,10 +192,7 @@ Besides, the percentage fluctuates from time to time this might due to two reaso
 ![Fail-NoOne](./image/Lab5-Fail-Noone.PNG)  
 
 
- due to a limited training data. 
-And the Pi camera captured a different lighting and resolution from the webcam on my laptop, which lead to the inconsistency.
-
-Based on the behavior I've seen, scenarios where the user is not me, the lighting/background/facial structure/hairstyle/etc. are different could cause problems.
+Based on the behavior I've seen, there are a lot of scenarios that could potentially be a problem. For example, the scenarios of user being someone else, lighting, background, race, length/ color/ texture of hairstyle/ clothes, the distance between the camera and the user could all cause problems.   
 
 
 **Think about someone using the system. Describe how you think this will work.**
@@ -207,6 +200,15 @@ Based on the behavior I've seen, scenarios where the user is not me, the lightin
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+I thought about it and actually invite an user to try out the system. They are aware of the fluctuation of the results from time to time but not really the specific uncertainties such as lighting and length/ color/ texture of the hair/ clothes. 
+<br>
+For a professional driver who is using the system in a real world setting, a miss classification would greatly impact him/her life. For exmaple, we would not want to miss classify a driver falling asleep to energetic, this could put a lot of lives in risk.   
+For the users are just using this for a fun, it does not have much impact unless it's a competitive game that might cause unfairness. 
+<br>
+In ordert to address the problem would be quite tricky. One thing I can think of is to combine multiple sensors and take all results into consideration to eliminate possible miss classification. For example, by combining face expression detection, with eyeball condition detection/ heart beat tracker to indentify if the driver is either tired to distracted, but by doing this it creates a lot ethical problems as well.  
+One possible optimization would be have more training data available for the model particularly the data of real world drivers including different race, ethnicity, skin color and also address the above mentioend uncentainties.  
+The other possible optimization I can think of would be adding more classes and identify/ eliminate some classes might cause miss classification. 
 
 ### Part D
 ### Characterize your own Observant system
