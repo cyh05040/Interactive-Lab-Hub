@@ -135,8 +135,12 @@ Although autonomous driving would be the next big thing, it is still important f
   
 A google TeachableMachine was trained to detect either a driver is currently tired, distracted or energetic.
 
+![Distracted](./image/Lab5-Distracted.PNG)
+![Energetic](./image/Energetic.PNG)
+![FallingAsleep](./image/Lab5-FallingAsleep.PNG)
 
-
+This is so exciting! Test the model with your computer webcam.
+[Link](https://teachablemachine.withgoogle.com/models/p8SOAF0MN/)
 
 ### Part C
 ### Test the interaction prototype
