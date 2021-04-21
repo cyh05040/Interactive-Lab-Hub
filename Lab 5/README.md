@@ -158,9 +158,11 @@ This is so exciting! Test the model with your computer webcam.
 Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?  
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+2. When does it fail?
+3. When it fails, why does it fail?  
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+1. When does it what it is supposed to do?  
 
 With myself in the camera, the model works well most of the time. This is mainly due to the same person for training and testing and the decent amount of training images data. (867 images for class Falling Alseep, 847 images for Energetic, 460 images for Distracted)
 <br>
@@ -181,12 +183,21 @@ Energetic with Glasses
 ![EnergeticGlasses](./image/Lab5-EnergeticWithGlasses.PNG)  
 <br>
 
+2. When does it fail?
+3. When it fails, why does it fail?   
+
+The system fails when driver is wearing sunglasses, also when no driver is in front of the camera. This was predictable being no training data of driver wearing sunglasses or leaving the seat was added into the training process. 
+Besides, the percentage fluctuates from time to time this might due to two reasons.  
+    1. Facial expressions are relatively subtle, therefore the system might not be accurately capturing the driver's condition.  
+    2. Although having sdecent amount of training data, it's still not enough data to capture the accurate expression.
+
+    Please see the following failed images:   
+![Fail-Sunglasses](./image/Lab5-Fail-Sunglasses.PNG)  
+![Fail-NoOne](./image/Lab5-Fail-Noone.PNG)  
 
 
-
-
-As seen in the above photos, it fails when driver is wearing sunglasses, also when no driver is in front of the camera. 
-I think one of the reasons why it failed is that facial expressions are relatively subtle and still, so the model might not be accurate due to a limited training data. And the Pi camera captured a different lighting and resolution from the webcam on my laptop, which lead to the inconsistency.
+ due to a limited training data. 
+And the Pi camera captured a different lighting and resolution from the webcam on my laptop, which lead to the inconsistency.
 
 Based on the behavior I've seen, scenarios where the user is not me, the lighting/background/facial structure/hairstyle/etc. are different could cause problems.
 
