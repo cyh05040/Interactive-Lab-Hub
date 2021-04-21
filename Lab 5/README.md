@@ -134,10 +134,20 @@ While it's difficult to address the third type, visual distractions and manual d
 Although autonomous driving would be the next big thing, it is still important for monitor driver's condition while on the road at the moment. (2021) I came up with the idea of identifying condition of drivers while on the road.  
   
 A google TeachableMachine was trained to detect either a driver is currently tired, distracted or energetic.
-
-![Distracted](./image/Lab5-Distracted.PNG)
-![Energetic](./image/Lab5-Energetic.PNG)
+<br>
+Construct a simple interaction.  
+<br>
+Falling Asleep
+<br>
 ![FallingAsleep](./image/Lab5-FallingAsleep.PNG)
+<br>
+Distracted
+<br>
+![Distracted](./image/Lab5-Distracted.PNG)
+<br>
+Energetic
+<br>
+![Energetic](./image/Lab5-Energetic.PNG)
 
 This is so exciting! Test the model with your computer webcam.
 [Link](https://teachablemachine.withgoogle.com/models/p8SOAF0MN/)
