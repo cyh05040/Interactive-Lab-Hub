@@ -133,7 +133,7 @@ https://www.cdc.gov/transportationsafety/distracted_driving/index.html
 While it's difficult to address the third type, visual distractions and manual distractions can be mitigated using computer vision technology. Identifying tired or distracted drivers nehind the wheel could effectively reduce the percentage of fatal crashes caused by careless driving especially for those whose jobs are driving such as bus and taxi drivers.  
 Although autonomous driving would be the next big thing, it is still important for monitor driver's condition while on the road at the moment. (2021) I came up with the idea of identifying condition of drivers while on the road.  
   
-A google TeachableMachine was trained to detect either a driver is currently tired, distracted or energetic.
+A google TeachableMachine was trained to be a driver condition monitor. It can detect either a driver is currently tired, distracted or energetic.
 <br>
 Construct a simple interaction.  
 <br>
@@ -147,9 +147,9 @@ Distracted
 <br>
 Energetic
 <br>
-![Energetic](./image/Lab5-Energetic.PNG)
+![Energetic](./image/Lab5-Energetic.PNG)  
 
-This is so exciting! Test the model with your computer webcam.
+This is so exciting! Test the model with your computer webcam.  
 [Link](https://teachablemachine.withgoogle.com/models/p8SOAF0MN/)
 
 ### Part C
@@ -159,8 +159,37 @@ Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
 1. When does it fail?
-1. When it fails, why does it fail?
+1. When it fails, why does it fail?  
 1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+With myself in the camera, the model works well most of the time. This is mainly due to the same person for training and testing and the decent amount of training images data. (867 images for class Falling Alseep, 847 images for Energetic, 460 images for Distracted)
+<br>
+I tried out different possible scenarios for a drivers. For example, drivers wearing glasses, driver wearing sunglasses as well as no driver on the car. The reason why I inputted the scenario of no driver on the car is because I plan to develop an alarming system when driver's falling asleep or distracted, and I don't want to start a false alarm when the driver leaves or changes shift.  
+<br>
+The first attmept I tried was the scenario of driver wearing glasses. Surprisingly, for all three cases it exceeds the expectation. 
+<br>
+Falling Asleep with Glasses
+<br>
+![FallingAsleepGlasses](./image/Lab5-FallingAsleepWithGlasses.PNG)  
+<br>
+Distracted with Glasses
+<br>
+![DistractedGlasses](./image/Lab5-DistractedWithGlasses.PNG)  
+<br>
+Energetic with Glasses
+<br>
+![EnergeticGlasses](./image/Lab5-EnergeticWithGlasses.PNG)  
+<br>
+
+
+
+
+
+As seen in the above photos, it fails when driver is wearing sunglasses, also when no driver is in front of the camera. 
+I think one of the reasons why it failed is that facial expressions are relatively subtle and still, so the model might not be accurate due to a limited training data. And the Pi camera captured a different lighting and resolution from the webcam on my laptop, which lead to the inconsistency.
+
+Based on the behavior I've seen, scenarios where the user is not me, the lighting/background/facial structure/hairstyle/etc. are different could cause problems.
+
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
