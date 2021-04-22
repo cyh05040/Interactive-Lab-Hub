@@ -225,6 +225,7 @@ During the lecture, we mentioned questions to help characterize a material:
 <br>
 <br>
 <br>
+
 * What can you use X for?  
 
 Driver condition recognition is great for detecting focused /tired/ distracted faces. This can be widely apply to other long hour jobs that requires constant attention such as pilots, captains, teachers etc.   
