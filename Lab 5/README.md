@@ -222,8 +222,9 @@ During the lecture, we mentioned questions to help characterize a material:
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
-  
-
+<br>
+<br>
+<br>
 * What can you use X for?  
 
 Driver condition recognition is great for detecting focused /tired/ distracted faces. This can be widely apply to other long hour jobs that requires constant attention such as pilots, captains, teachers etc.   
