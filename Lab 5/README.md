@@ -249,10 +249,13 @@ What surprises me is that the abililty to detect things that weren't in the trai
 It is awesome when it works, as if the systme understands what the goals is and generate a variety of data provided within expectation. 
 
 **Include a short video demonstrating the answers to these questions.**
+[Model in Action](https://youtu.be/-SdAM2wMt7w)
+
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
+[Final Model](https://youtu.be/MZajo9BKpdQ)
 
