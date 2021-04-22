@@ -222,6 +222,31 @@ During the lecture, we mentioned questions to help characterize a material:
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
+  
+
+* What can you use X for?  
+
+Driver condition recognition is great for detecting focused /tired/ distracted faces. This can be widely apply to other long hour jobs that requires constant attention such as pilots, captains, teachers etc.   
+
+* What is a good environment for X?  
+* What is a bad environment for X?
+
+The perfect environemnt would be a location where the video resolution is great, lighting and background conditions are stable and most importantly the data can't be too complicated (noisy). Since the targeted customers are drivers in general and they usually have a stable setting, the lightign and background wouldn't be too big of a problem.  
+One problem I can think of is the lighting in vehicles, since the car is constantly moving it's difficult to adjust to the constantly changing lighting condition on the road.  
+A bad environment would be somewhere with lots of complicated and noisy data such as a lot of people at the same time. This would be difficult for the system to identify which user to capture. Other genral reasons would be bad lighting with lots of variance, or poor video quality.
+
+* When will X break?
+* When it breaks how will X break?
+
+If the system get placed in any bad environment, there is a high chance that it will break. 
+To determine how it would break really depends on the input. There are two main possible cases:  
+    1. Not detecting a driver or 2. incorrectly detect a driver's condition. 
+
+* What are other properties/behaviors of X?
+* How does X feel?
+
+What surprises me is that the abililty to detect things that weren't in the training data and provide results. I trained the model without glasses but the model was able to correctly label the facial condition even when I was wearing glasses.  
+It is awesome when it works, as if the systme understands what the goals is and generate a variety of data provided within expectation. 
 
 **Include a short video demonstrating the answers to these questions.**
 
