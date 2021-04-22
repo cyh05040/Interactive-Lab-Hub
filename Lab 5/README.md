@@ -209,6 +209,12 @@ For the users are just using this for a fun, it does not have much impact unless
 In ordert to address the problem would be quite tricky. One thing I can think of is to combine multiple sensors and take all results into consideration to eliminate possible miss classification. For example, by combining face expression detection, with eyeball condition detection/ heart beat tracker to indentify if the driver is either tired to distracted, but by doing this it creates a lot ethical problems as well.  
 One possible optimization would be have more training data available for the model particularly the data of real world drivers including different race, ethnicity, skin color and also address the above mentioend uncentainties.  
 The other possible optimization I can think of would be adding more classes and identify/ eliminate some classes might cause miss classification. 
+<br>
+![Other-User-1](./image/OtherUser1.PNG)  
+![Other-User-2](./image/OtherUser2.PNG)  
+![Other-User-3](./image/OtherUser3.PNG)  
+
+<br>
 
 ### Part D
 ### Characterize your own Observant system
