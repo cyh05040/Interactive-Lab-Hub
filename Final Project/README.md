@@ -12,6 +12,8 @@ Final Project Documentation due - May 19
 
 Hehe - juicetin
 
+Igg - anguslin
+
 ## Objective
 
 The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.
