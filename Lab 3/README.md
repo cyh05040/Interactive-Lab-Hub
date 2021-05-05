@@ -68,9 +68,16 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+![SmartyPi Toilet](IMG_1366.jpg)
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
-*what was the feedback? Who did it come from?*
+Justin Liu:   
+I think the idea is brilliant, especially the part how you envision toilet as a robot. I love how you incorporate the weighing function onto the toilet, which can replace a scale in your bathroom. I would be interested to see if it's possible to measure more data such as your body fat or metabolism.    
+    
+Ming-Chun Lu:   
+Very nice idea! I would buy one in my bathroom. I wish there is a heating and cooling feature for you can install and ask the toilet to change the tempurature through voice. 
+
 
 ## Prototype your system
 
@@ -79,28 +86,54 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-*Document how the system works*
+*Document how the system works*    
+The device, I called it SmartyPi Toilet. It has several feature, which is quite similar to having a smart home speaker within a toilet. For example, it can order more toilet papers when you are out and also play some music during the process to make the user feel better.   
+Furthermore, it has a couple advanced feature that home speakers aren't able to do such as flushing the toilet with voice and mearue user's weight when they are sitting on the toilet. It has a scale sensor within the toilet seat and it will record your weight into the Rasberry Pi. Every time the user, ask to have his or her weight measured, SpartyPi toilet would inform the user that if he or she has gained weight or lost weight. 
 
-*Include videos or screencaptures of both the system and the controller.*
+
+*Include videos or screencaptures of both the system and the controller.*    
+
+
+![SmartyPi Toilet](whole.jpg)  
+![SmartyPi Toilet](side.jpg)  
+![SmartyPi Toilet](close.jpg)  
+![SmartyPi Toilet](Photo_measure+weight.jpg)  
+
+
+       
+[Open Toilet Failure](https://youtu.be/Rh7ZgXMFY70)    
+[Open and Close Toilet Success](https://youtu.be/Wlf6470p3YE)    
+[Order Toilet Paper and Play Music](https://youtu.be/Dq5ogA1W3oU)    
+[Measure User Weight](https://youtu.be/kOcGTPgqF98)     
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+    
+Two people tested the system - Ming-Chun (Jeff) Lu, Justin Liu.  
+
+
+
 
 Answer the following:
 
-### What worked well about the system and what didn't?
-*your answer here*
+### What worked well about the system and what didn't?   
+The open and close feature of the smarty pi toilet worked very well. The users really like how the toilet open in time and closed it in a smooth motion. They appreciate how the toilet seat doesn't just slams down, which makes the device looks even smarter.    
+The measure weight feature doesn't work as well as imagined. It is mainly due to people got long legs and it would be too difficult to measure the user's weight correctly while having their feet touching the floor. This would be something I cant think about and possibly redesign.   
 
 ### What worked well about the controller and what didn't?
 
-*your answer here*
+The controller works very well and is easy to use with  no obvious latency.   
 
-### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
+### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?    
 
-*your answer here*
+The react time of the device would decide a big part of the user experience and the time latency can be a problem. It is imperative for the user to see the according reaction within two seconds, anything above that would be a little confusing for the user. Also, only limited action can be conducted, for example it can only do one action at once. Last but not least, smarty pi toilet actions can only be conducted in a quiet place without too much noise.   
+   
 
+### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?   
 
-### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
+For the open and close seat function: It would be very interesting if the user could adjust the seat opening and closing speed according to his or her preference.   
+For the play music function: It would be more user friendly could sense the volume and give him or her the option to adjust accordingly. Furthermore, it can detect the current noise level in the room and decide on the volume of music accordingly.   
+For the weight measuring feature: It will help the user to keep track of his or her weight and compare with the previous data and provide user the trend of the weight. (If it's getting heavier/ lighter by what percentage.)
 
-*your answer here*
 
