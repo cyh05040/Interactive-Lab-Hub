@@ -116,7 +116,7 @@ We decided to focus on applications regarding weight and force. Since it's a ver
 
 
 
-**Two-Punch-Men interactive boxing device: Two or more persons application**
+## Two-Punch-Men interactive boxing device: Two or more persons application
 
 ![TwoPunchMen](./imgs/2pm.png)
 
