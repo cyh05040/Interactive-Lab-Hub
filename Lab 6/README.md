@@ -124,7 +124,6 @@ We decided to focus on applications regarding weight and force. Since it's a ver
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
 >During the Covid-19 pandemic, in person contact has been prohibited among the entire world. While the covid situation is not slowing down, we all miss in person contact and tried to conduct exercise and workours at home. Therefore, companies like Mirror, Peloton and Otari siezed such an oppurtunity and provided effective indoor workout equipments. Even we were able to conduct effective workouts at home to stay healthy, don't all miss the interaction that gym and boxing classes offer? 
-<br>
 
 >Two-Punch-Man interactive boxing device creates an unique experience that not only help you meet your personal fitness goals but also keep the in person interaction fun at home.  
 
@@ -133,7 +132,6 @@ We decided to focus on applications regarding weight and force. Since it's a ver
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
 > I don't think it's too difficult for the user to understand how to interact with the device. Although the silver box invites the user to apply force onto it, it would be much more intuitive for the user if additional audio instruction was implemented in the device.  
-<br>
 
 > Another possible improvement for the system would be adding lighting interaction onto the device to create better incentive for the user to apply force onto it. 
 
