@@ -93,7 +93,7 @@ We decided to focus on applications regarding weight and force. Since it's a ver
 
 >2. Two-Punch-Men interactive boxing device: Two or more persons application     
 
-**Smart home weight measuring Iot: Single person application**
+## Smart home weight measuring Iot: Single person application
 
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
