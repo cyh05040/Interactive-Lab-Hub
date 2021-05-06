@@ -148,5 +148,6 @@ Meanwhile at Jerry's room, the two punch men would retrieve the data from MQTT a
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
+[![Interation](http://img.youtube.com/vi/TuND8bd6jI0/0.jpg)](http://www.youtube.com/watch?v=TuND8bd6jI0 "Interation")
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
