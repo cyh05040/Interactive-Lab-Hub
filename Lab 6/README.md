@@ -125,7 +125,8 @@ We decided to focus on applications regarding weight and force. Since it's a ver
 
 >During the Covid-19 pandemic, in person contact has been prohibited among the entire world. While the covid situation is not slowing down, we all miss in person contact and tried to conduct exercise and workours at home. Therefore, companies like Mirror, Peloton and Otari siezed such an oppurtunity and provided effective indoor workout equipments. Even we were able to conduct effective workouts at home to stay healthy, don't all miss the interaction that gym and boxing classes offer? 
 <br>
-Two-Punch-Man interactive boxing device creates an unique experience that not only help you meet your personal fitness goals but also keep the in person interaction fun at home.  
+
+>Two-Punch-Man interactive boxing device creates an unique experience that not only help you meet your personal fitness goals but also keep the in person interaction fun at home.  
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
