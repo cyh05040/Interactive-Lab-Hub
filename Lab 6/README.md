@@ -88,10 +88,10 @@ Find at least one class (more are okay) partner, and design a distributed applic
 My partner for this lab is Ting-Yu(Angus) Lin.  
 <br>  
 We decided to focus on applications regarding weight and force. Since it's a very interesting domain that we are passionate in, we created a total of two applications:  
-<br>  
-1. Smart home weight measuring Iot: Single person application   
-<br>  
-2. Two-Punch-Man interactive boxing device: Two or more persons application  
+
+>1. Smart home weight measuring Iot: Single person application   
+
+>2. Two-Punch-Man interactive boxing device: Two or more persons application  
 <br>  
 
 **Smart home weight measuring Iot: Single person application**
