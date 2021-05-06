@@ -92,8 +92,7 @@ We decided to focus on applications regarding weight and force. Since it's a ver
 1. Smart home weight measuring Iot: Single person application   
 <br>  
 2. Two-Punch-Man interactive boxing device: Two or more persons application  
-<br>
-
+<br>  
 
 **Smart home weight measuring Iot: Single person application**
 
@@ -123,7 +122,10 @@ We decided to focus on applications regarding weight and force. Since it's a ver
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
->During the Covid-19 pandemic, in person contact has been prohibited among the entire world. While the covid situation is not slowing down, we all miss in person contact and tried to conduct exercise and workours at home. Therefore, companies like Mirror, Peloton and Otari siezed such an oppurtunity and provided effective indoor workout equipments. Even we were able to conduct effective workouts at home to stay healthy, don't all miss the interaction that gym and boxing classes offer? 
+>During the Covid-19 pandemic, in person contact has been prohibited among the entire world. While the covid situation is not slowing down, we all miss in person contact and tried to conduct exercise and workours at home. Therefore, companies like Mirror, Peloton and Otari siezed such an oppurtunity and provided effective indoor workout equipments.  
+Peloton's sales surged 232% year-over-year to $757.9 million, as the fitness company continues to see high global demand for its bikes and treadmills from consumers looking to stay in shape during the coronavirus pandemic.
+
+>We believe that the complete gym experience includes effective workouts equipments to stay fit as well as the valuable in person interactions. Even we were able to conduct effective workouts at home to stay healthy, don't all miss the interaction that gym and boxing classes offer? 
 
 >Two-Punch-Man interactive boxing device creates an unique experience that not only help you meet your personal fitness goals but also keep the in person interaction fun at home.  
 
