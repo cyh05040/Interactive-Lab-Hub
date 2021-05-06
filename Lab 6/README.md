@@ -134,7 +134,8 @@ We decided to focus on applications regarding weight and force. Since it's a ver
 
 > I don't think it's too difficult for the user to understand how to interact with the device. Although the silver box invites the user to apply force onto it, it would be much more intuitive for the user if additional audio instruction was implemented in the device.  
 <br>
-Another possible improvement for the system would be adding lighting interaction onto the device to create better incentive for the user to apply force onto it. 
+
+> Another possible improvement for the system would be adding lighting interaction onto the device to create better incentive for the user to apply force onto it. 
 
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
