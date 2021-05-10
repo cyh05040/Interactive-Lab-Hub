@@ -87,22 +87,22 @@ Crowd-counting was accomplished with the help of `mobilenet v2` from `tensorflow
 Both trams’ positions and the number of people in each station were sent over MQTT under the main topic `IDD/nani/trams` for reading by the Raspberry Pi on the watch.
 
 ## Prototype
-![prototype-1](./image/IMG_2089.jpg)
-![prototype-2](./image/IMG_2091.jpg)
-![prototype-3](./image/IMG_2092.jpg)
-![prototype-4](./image/IMG_2094.jpg)
-![prototype-5](./image/IMG_2095.jpg)
-![prototype-6](./image/IMG_2096.jpg)
-![prototype-7](./image/IMG_2097.jpg)
-![prototype-8](./image/IMG_2098.jpg)
-![prototype-9](./image/IMG_2099.jpg)
-![prototype-10](./image/IMG_2129.jpg)
-![prototype-11](./image/IMG_2130.jpg)
-![prototype-12](./image/IMG_2710.jpg)
-![prototype-13](./image/IMG_2711.jpg)
-![prototype-14](./image/IMG_2713.jpg)
-![prototype-15](./image/IMG_2716.jpg)
-![prototype-16](./image/IMG_2723.jpg)
+![prototype-1](./image/IMG_2089.JPG)
+![prototype-2](./image/IMG_2091.JPG)
+![prototype-3](./image/IMG_2092.JPG)
+![prototype-4](./image/IMG_2094.jpeg)
+![prototype-5](./image/IMG_2095.jpeg)
+![prototype-6](./image/IMG_2096.jpeg)
+![prototype-7](./image/IMG_2097.jpeg)
+![prototype-8](./image/IMG_2098.jpeg)
+![prototype-9](./image/IMG_2099.jpeg)
+![prototype-10](./image/IMG_2129.jpeg)
+![prototype-11](./image/IMG_2130.jpeg)
+![prototype-12](./image/IMG_2710.jpeg)
+![prototype-13](./image/IMG_2711.jpeg)
+![prototype-14](./image/IMG_2713.jpeg)
+![prototype-15](./image/IMG_2716.jpeg)
+![prototype-16](./image/IMG_2723.jpeg)
 
 
 
