@@ -11,6 +11,7 @@ Final Project Presentations (video watch party) - May 12
 
 Final Project Documentation due - May 19
 
+
 ## Objective
 
 The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.  
@@ -32,12 +33,27 @@ Don’t we all wish there was some tool that allows us to know when the tram is 
 
 Introducing TramWatch, a real-time tram tracking smart watch which provides live crowdedness data at tram stations. We hope to improve the Roosevelt Island Tramway taking experience by not only making it more time efficient but most importantly safer. 
 
+## Teams
+
+You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
+
+Justin Liu jl4275
+
+Angus (Ting-Yu) Lin tl799
+
+Eric (Yen-Hao) Chen yc2645 
+
 
 ## Description
 Your project is to design and build an interactive device to suit a specific application of your choosing. 
 
 
-Accerlermonitor to save battery 
+## Design
+I am a bad Designer
+
+## Prototype
+
+## Reflection
 
 ## Deliverables
 
@@ -46,16 +62,6 @@ Accerlermonitor to save battery
 3. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
 4. Reflections on process (What have you learned or wish you knew at the start?)
 
-
-## Teams
-
-You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
-
-Justin Liu jl4275
-
-Angus (Ting-Yu) Lin tl799 
-
-Eric (Yen-Hao) Chen yc2645 
 
 ## Examples
 
