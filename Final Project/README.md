@@ -95,8 +95,6 @@ Both trams’ positions and the number of people in each station were sent over 
 ![prototype-7](./image/IMG_2097.jpeg)
 ![prototype-8](./image/IMG_2098.jpeg)
 ![prototype-9](./image/IMG_2099.jpeg)
-![prototype-10](./image/IMG_2129.jpeg)
-![prototype-11](./image/IMG_2130.jpeg)
 ![prototype-12](./image/IMG_2710.jpeg)
 ![prototype-13](./image/IMG_2711.jpeg)
 ![prototype-14](./image/IMG_2713.jpeg)
