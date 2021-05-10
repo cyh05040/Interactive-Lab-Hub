@@ -49,31 +49,45 @@ Your project is to design and build an interactive device to suit a specific app
 
 From the above-mentioned problem, we hope to integrate our solution into an all-in-one connected device - TramWatch, a real-time tram tracking smart watch which provides live crowdedness data at tram stations. It is consist of three main features: 
 
-1. Real-time tram schedule tracking
+1. Real-time tram schedule tracking. 
     Provides user real-time tram location as well as the estimated arrival time. User can then better utilize his or her time, and more efficiently plan the route.  
 
-2. Crowdedness data visualization at tram stations
+2. Crowdedness data visualization at tram stations. 
     Monitor the station and provide user the exact amount of people that are currently at the tram station. By capturing the crowdedness data of each station, TramWatch provides user the oppurtunity to avoid the crowd. 
 
-3. Flip-To-Watch Interactive Energy Saving Feature
+3. Flip-To-Watch Interactive Energy Saving Feature. 
     The sensor detects the angle of the watch face and only display the tram information when user tilts the watch. The energy saving feature not only makes the device more interactive but also energy efficient. 
 
 ## Design
 ### The Watch/Gauntlet/Mech-suit Arm/Thanos' Glove
 ![design-1](./image/design1.png)
 
+The watch was built with the following:
+- Raspberry Pi
+- Waveshare 2.13inch E-Paper (D)
+- Adafruit MPU-6050 6-DoF Accelerometer
+- Cardboard
+
+A cardboard prototype was built for the best user experience. Including the accelerometer enabled us to detect the orientation of the users hand, allowing us to turn off the display when the user’s palm was facing downwards. An E-ink display was used - mainly because it was the only display module we had that could be wired far away from the Pi - but also due to its physical flexibility. Data received over MQTT was used to update the E-ink display, where we displayed the live tram positions as well as the crowdedness of the stations. Since the E-ink display required a special sequence to reset before displaying the next frame, the refresh rate of our display was severely reduced - thankfully not too limiting for our purposes (the tram moves extremely slowly).
 
 
 ### Tram & People Tracking
 ![design-2](./image/design2.png)
-To track the trams' live positions and the crowdedness in stations, the other two raspberry pi's were used along with the pi-camera. However, for the purposes of testing and faster runtimes, the scripts were instead run on our computer with connected webcams. Tram-tracking was done with the help of OpenCV functions to filter out the moving trams.
+To track the trams' live positions and the crowdedness in stations, the other two Raspberry Pi's were used along with Pi-Cameras. However, for the purposes of testing and faster runtimes, the scripts were instead run on our computer with connected webcams. 
+
+Tram-tracking was done with the help of `OpenCV` functions to find the moving trams against the still background, and a lot of testing was done on filtering out noise and only detecting the trams. The camera was placed on the roof of The House for the best view of the tram crossing the river; to eliminate detection of other moving objects in the scene (cars and boats), a library for selecting ROI (Regions of Interest) was used to only select the portion of the video feed where trams passed through. With the trams detected, the x-coordinates of the bounding boxes were taken and fed into a Kalman filter (with the help of a library), allowing the script to model the  trams’ movement and make updates using the observed trams’ positions. Special care was taken to ignore video readings when the trams overlapped each other or when they were occluded by the tower/bridge.
+
+Crowd-counting was accomplished with the help of `mobilenet v2` from `tensorflow`. Running this model against the video feed yields a set of all detected objects, and after filtering - by only considering objects that are ‘people’ with a confidence score over 0.7 - the number of people within the camera’s field of view can be determined.
+
+Both trams’ positions and the number of people in each station were sent over MQTT under the main topic `IDD/nani/trams` for reading by the Raspberry Pi on the watch.
+
 
 ## Prototype
 
 ## Reflection
 Justin Liu - I wish I knew more about MQTT before coming into this lab, using it has showed that making connected devices isn’t as complicated as I previously thought. If we had more time, we could have probably added some more interactive features to the glove/gauntlet/wrist-watch such as touch controls and even gesture recognition.
 
-Angus (Ting-Yu) Lin - 
+Angus (Ting-Yu) Lin - Tensorflow’s object detection API is not great to use due to poor documentation. It took a long time to find the object classes for people. Nevertheless, I love this idea and I think it will enhance my life and the life of others around me.
 
 Eric (Yen-Hao) Chen - 
 
