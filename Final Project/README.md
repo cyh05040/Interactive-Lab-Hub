@@ -21,9 +21,14 @@ Despite being the coolest way to get around New York City, the lack of online re
 
 ![ri-tram](./image/the-roosevelt-island.jpg)
 
-As seen on their website: https://rioc.ny.gov/302/Tram, only hours of operation and set schedules are available to users. Besides, Google Maps has no tram related information when planning for a commute. The only way for users to obtain live tram schedule is to physically arrive at the tram station and read off the sign. 
+As seen on their website: https://rioc.ny.gov/302/Tram, only hours of operation and set schedules are available to users. Besides, Google Maps has no tram related information when planning for a commute. The only way for users to obtain live tram schedule is to physically arrive at the tram station and read off the sign.
 
-Furthermore, New Yorkers are getting more conscious of crowdedness data for public transport due to Covid-19 pandemic. Don’t we all wish there was some tool that allows us to know when the tram is arriving as well as how crowded the tram station is without needing to go there first?
+Furthermore, New Yorkers are getting more conscious of crowdedness data for public transport due to Covid-19 pandemic. The closest option for users to obtain live tram crowdedness data would be using Google maps's machine learning algorithm relying on its user base for manual data input as well as powerful prediction models. 
+
+![tram-prediction1](./image/google-tram.jpg)
+![tram-prediction2](./image/google-tram2.jpg)
+
+Don’t we all wish there was some tool that allows us to know when the tram is arriving as well as how crowded the tram station is without needing to go there first?
 
 Introducing TramWatch, a real-time tram tracking smart watch which provides live crowdedness data at tram stations. We hope to improve the Roosevelt Island Tramway taking experience by not only making it more time efficient but most importantly safer. 
 
