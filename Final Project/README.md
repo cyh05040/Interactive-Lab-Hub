@@ -80,7 +80,7 @@ A beautiful cardboard prototype was built for the best user interaction and expe
 ![design-2](./image/design2.png)
 To track the trams' live positions and the crowdedness in stations, the other two Raspberry Pi's were used along with Pi-Cameras. However, for the purposes of testing and faster runtimes, the scripts were instead run on our computer with connected webcams. 
 
-Tram-tracking was done with the help of `OpenCV` functions to find the moving trams against the still background, and a lot of testing was done on filtering out noise and only detecting the trams. The camera was placed on the roof of The House for the best view of the tram crossing the river; to eliminate detection of other moving objects in the scene (cars and boats), a library for selecting ROI (Regions of Interest) was used to only select the portion of the video feed where trams passed through. With the trams detected, the x-coordinates of the bounding boxes were taken and fed into a Kalman filter (with the help of a library), allowing the script to predict the  trams’ movement and make updates using the observed trams’ positions. Special care was taken to ignore video readings when the trams overlapped each other or when they were occluded by the tower/bridge. The relative positions of the trams were then converted to their actual positions over the entire tramline.
+Tram-tracking was done with the help of `OpenCV` functions to find the moving trams against the still background, and a lot of testing was done on filtering out noise and only detecting the trams. The camera was placed on the roof of The House for the best view of the tram crossing the river; to eliminate detection of other moving objects in the scene (cars and boats), a library for selecting ROI (Regions of Interest) was used to only select the portion of the video feed where trams passed through. With the trams detected, the x-coordinates of the bounding boxes were taken and fed into a Kalman filter (with the help of the `filterpy` library), allowing the script to predict the  trams’ movement and make updates using the observed trams’ positions. Special care was taken to ignore video readings when the trams overlapped each other or when they were occluded by the tower/bridge. The relative positions of the trams were then converted to their actual positions over the entire tramline.
 
 Crowd-counting was accomplished with the help of `mobilenet v2` from `tensorflow`. Running this model against the video feed yields a set of all detected objects, and after filtering - by only considering objects that are ‘people’ with a confidence score over 0.7 - the number of people within the camera’s field of view can be determined.
 
@@ -100,10 +100,6 @@ Both trams’ positions and the number of people in each station were sent over 
 ![prototype-14](./image/IMG_2713.jpeg)
 ![prototype-15](./image/IMG_2716.jpeg)
 ![prototype-16](./image/IMG_2723.jpeg)
-
-
-
-
 
 ## Reflection
 Justin Liu - I wish I knew more about MQTT before coming into this lab, using it has showed that making connected devices isn’t as complicated as I previously thought. If we had more time, we could have probably added some more interactive features to the glove/gauntlet/wrist-watch such as touch controls and even gesture recognition.
