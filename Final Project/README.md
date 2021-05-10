@@ -11,20 +11,28 @@ Final Project Presentations (video watch party) - May 12
 
 Final Project Documentation due - May 19
 
-Hehe - juicetin
-
-Igg - anguslin
-
-
 ## Objective
 
 The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.  
 
-The Objective for this 
+The Roosevelt Island Tramway is one of the iconic attractions in New York City and it has been in many films and TV shows, including Spider-Man (2002) and White Collar (2013). It runs every 7-15 minutes from 59th Street and Second Avenue in Manhattan to Tramway Plaza on Roosevelt Island and each car holds up to 110 people and about 115 trips are made daily. 
+
+Despite being the coolest way to get around New York City, the lack of online real-time scheduling system has been quite a frustration for New Yorkers who commute regularly to the island.   
+
+As seen on their website: https://rioc.ny.gov/302/Tram , 
+
+Furthermore, New Yorkers are getting more conscious of crowdedness data for public transport due to Covid-19 pandemic.  
+
+What if there is a way to combine both?
+
+Introducing TramWatch, a real-time tram tracking smart watch which provides live crowdedness data at tram stations. We hope to improve the Roosevelt Island Tramway taking experience by not only making it more time efficient but most importantly safer. 
 
 
 ## Description
 Your project is to design and build an interactive device to suit a specific application of your choosing. 
+
+
+Accerlermonitor to save battery 
 
 ## Deliverables
 
