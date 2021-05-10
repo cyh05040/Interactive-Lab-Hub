@@ -50,6 +50,9 @@ Your project is to design and build an interactive device to suit a specific app
 
 ## Design
 I am a bad Designer
+![design-1](./image/Screenshot 2021-05-10 at 15.11.23.png)
+![design-2](./image/Screenshot 2021-05-10 at 15.53.38.png)
+
 
 ## Prototype
 
