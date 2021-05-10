@@ -108,7 +108,7 @@ Both trams’ positions and the number of people in each station were sent over 
 ## Reflection
 Justin Liu - I wish I knew more about MQTT before coming into this lab, using it has showed that making connected devices isn’t as complicated as I previously thought. If we had more time, we could have probably added some more interactive features to the glove/gauntlet/wrist-watch such as touch controls and even gesture recognition.
 
-Angus (Ting-Yu) Lin - 
+Angus (Ting-Yu) Lin - Tensorflow’s object detection API is not great to use due to poor documentation. It took a long time to find the object classes for people. Nevertheless, I love this idea and I think it will enhance my life and the life of others around me.
 
 Eric (Yen-Hao) Chen - 
 
