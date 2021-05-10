@@ -21,7 +21,7 @@ Despite being the coolest way to get around New York City, the lack of online re
 
 ![ri-tram](./image/the-roosevelt-island.jpg)
 
-As seen on their website: https://rioc.ny.gov/302/Tram, only hours of operation and set schedules are available to users. Besides, Google Maps has no tram related information when planning for a commute. The only way for users to obtain live tram schedule is to physically arrive at the tram station and read off the sign.
+As seen on their website: https://rioc.ny.gov/302/Tram, only hours of operation and set schedules are available to users. Besides, Google Maps has no tram time related information when planning for a commute. The only way for users to obtain live tram schedule is to physically arrive at the tram station and read off the sign.
 
 Furthermore, New Yorkers are getting more conscious of crowdedness data for public transport due to Covid-19 pandemic. The closest option for users to obtain live tram crowdedness data would be using Google maps's machine learning algorithm relying on its user base for manual data input as well as powerful prediction models. 
 
