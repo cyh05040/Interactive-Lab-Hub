@@ -1,4 +1,5 @@
 # Final Project
+# TramWatch
 
 Using the tools and techniques you learned in this class, design, prototype and test an interactive device.
 
@@ -14,10 +15,14 @@ Hehe - juicetin
 
 Igg - anguslin
 
+
 ## Objective
 
-The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.
- 
+The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.  
+
+The Objective for this 
+
+
 ## Description
 Your project is to design and build an interactive device to suit a specific application of your choosing. 
 
