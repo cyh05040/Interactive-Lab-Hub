@@ -38,6 +38,12 @@ Your project is to design and build an interactive device to suit a specific app
 
 You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
 
+Justin Liu jl4275
+
+Angus (Ting-Yu) Lin tl799 
+
+Eric (Yen-Hao) Chen yc2645 
+
 ## Examples
 
 [Here is a list of good final projects from previous classes.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects)
