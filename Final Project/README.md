@@ -43,28 +43,24 @@ Angus (Ting-Yu) Lin tl799
 
 Eric (Yen-Hao) Chen yc2645 
 
-
 ## Description
 Your project is to design and build an interactive device to suit a specific application of your choosing. 
 
 From the above-mentioned problem, we hope to integrate our solution into an all-in-one connected device - TramWatch, a real-time tram tracking smart watch which provides live crowdedness data at tram stations. It is consist of three main features: 
 
-1. Real-time tram schedule tracking   
-   
+1. Real-time tram schedule tracking  
     Provides user real-time tram location as well as the estimated arrival time. User can then better utilize his or her time, and more efficiently plan the route.  
 
-2. Crowdedness data visualization at tram stations    
-  
+2. Crowdedness data visualization at tram stations  
     Monitor the station and provide user the exact amount of people that are currently at the tram station. By capturing the crowdedness data of each station, TramWatch provides user the oppurtunity to avoid the crowd. 
 
 3. Flip-To-Watch Interactive Energy Saving Feature  
-   
-    The sensor detects the angle of the watch face and only display the tram information when user tilts the watch. The energy saving feature not only makes the device more interactive but also energy efficient. 
+    The sensor detects the angle of the watch face and only display the tram information when user tilts the watch. The energy saving feature not only makes the device more interactive but also energy efficient.
+
 
 ## Design
 ### The Watch/Gauntlet/Mech-suit Arm/Thanos' Glove
 ![design-1](./image/design1.png)
-
 
 
 ### Tram & People Tracking
