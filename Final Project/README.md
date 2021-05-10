@@ -49,14 +49,23 @@ Your project is to design and build an interactive device to suit a specific app
 
 
 ## Design
-I am a bad Designer
+### The Watch/Gauntlet/Mech-suit Arm/Thanos' Glove
 ![design-1](./image/design1.png)
-![design-2](./image/design2.png)
 
+
+
+### Tram & People Tracking
+![design-2](./image/design2.png)
+To track the trams' live positions and the crowdedness in stations, the other two raspberry pi's were used along with the pi-camera. However, for the purposes of testing and faster runtimes, the scripts were instead run on our computer with connected webcams. Tram-tracking was done with the help of OpenCV functions to filter out the moving trams.
 
 ## Prototype
 
 ## Reflection
+Justin Liu - I wish I knew more about MQTT before coming into this lab, using it has showed that making connected devices isn’t as complicated as I previously thought. If we had more time, we could have probably added some more interactive features to the glove/gauntlet/wrist-watch such as touch controls and even gesture recognition.
+
+Angus (Ting-Yu) Lin - 
+
+Eric (Yen-Hao) Chen - 
 
 ## Deliverables
 
