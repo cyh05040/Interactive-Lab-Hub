@@ -19,7 +19,7 @@ The Roosevelt Island Tramway is one of the iconic attractions in New York City a
 
 Despite being the coolest way to get around New York City, the lack of online real-time scheduling system has been quite a frustration for New Yorkers who commute regularly to the island.   
 
-![ri-tram](../image/the-roosevelt-island.jpg)
+![ri-tram](./image/the-roosevelt-island.jpg)
 
 As seen on their website: https://rioc.ny.gov/302/Tram, only hours of operation and set schedules are available to users. Besides, Google Maps has no tram related information when planning for a commute. The only way for users to obtain live tram schedule is to physically arrive at the tram station and read off the sign. 
 
