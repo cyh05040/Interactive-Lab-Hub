@@ -87,7 +87,6 @@ Crowd-counting was accomplished with the help of `mobilenet v2` from `tensorflow
 Both trams’ positions and the number of people in each station were sent over MQTT under the main topic `IDD/nani/trams` for reading by the Raspberry Pi on the watch.
 
 ## Prototype
-![prototype-1](./image/IMG_2089.JPG)
 ![prototype-2](./image/IMG_2091.JPG)
 ![prototype-3](./image/IMG_2092.JPG)
 ![prototype-4](./image/IMG_2094.jpeg)
