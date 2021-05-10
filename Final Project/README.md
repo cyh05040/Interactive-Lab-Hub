@@ -87,6 +87,26 @@ Crowd-counting was accomplished with the help of `mobilenet v2` from `tensorflow
 Both trams’ positions and the number of people in each station were sent over MQTT under the main topic `IDD/nani/trams` for reading by the Raspberry Pi on the watch.
 
 ## Prototype
+![prototype-1](./image/IMG_2089.jpg)
+![prototype-2](./image/IMG_2091.jpg)
+![prototype-3](./image/IMG_2092.jpg)
+![prototype-4](./image/IMG_2094.jpg)
+![prototype-5](./image/IMG_2095.jpg)
+![prototype-6](./image/IMG_2096.jpg)
+![prototype-7](./image/IMG_2097.jpg)
+![prototype-8](./image/IMG_2098.jpg)
+![prototype-9](./image/IMG_2099.jpg)
+![prototype-10](./image/IMG_2129.jpg)
+![prototype-11](./image/IMG_2130.jpg)
+![prototype-12](./image/IMG_2710.jpg)
+![prototype-13](./image/IMG_2711.jpg)
+![prototype-14](./image/IMG_2713.jpg)
+![prototype-15](./image/IMG_2716.jpg)
+![prototype-16](./image/IMG_2723.jpg)
+
+
+
+
 
 ## Reflection
 Justin Liu - I wish I knew more about MQTT before coming into this lab, using it has showed that making connected devices isn’t as complicated as I previously thought. If we had more time, we could have probably added some more interactive features to the glove/gauntlet/wrist-watch such as touch controls and even gesture recognition.
