@@ -87,18 +87,41 @@ Crowd-counting was accomplished with the help of `mobilenet v2` from `tensorflow
 Both trams’ positions and the number of people in each station were sent over MQTT under the main topic `IDD/nani/trams` for reading by the Raspberry Pi on the watch.
 
 ## Prototype
+
+### Video of Display Design
+[![Display](http://img.youtube.com/vi/hr_40vmnmDg/0.jpg)](https://youtu.be/hr_40vmnmDg "Display")
+
+### Beautiful Display Design
 ![prototype-2](./image/IMG_2091.JPG)
+
+### Resetting Display
 ![prototype-3](./image/IMG_2092.JPG)
+
+### Front View of TramWatch
 ![prototype-4](./image/IMG_2094.jpeg)
+
+### User View of TramWatch
 ![prototype-5](./image/IMG_2095.jpeg)
+
+### Top View of TramWatch
 ![prototype-6](./image/IMG_2096.jpeg)
+
+### Side View 1 of TramWatch
 ![prototype-7](./image/IMG_2097.jpeg)
+
+### Side View 2 of TramWatch
 ![prototype-8](./image/IMG_2098.jpeg)
+
+### God's View of TramWatch
 ![prototype-9](./image/IMG_2099.jpeg)
-![prototype-12](./image/IMG_2710.jpeg)
+
+### User Interaction
 ![prototype-13](./image/IMG_2711.jpeg)
-![prototype-14](./image/IMG_2713.jpeg)
+
+### User Interaction with view of the tram
 ![prototype-15](./image/IMG_2716.jpeg)
+
+### Thanos' pose with view of the tram
 ![prototype-16](./image/IMG_2723.jpeg)
 
 ## Reflection
