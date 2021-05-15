@@ -62,11 +62,6 @@ From the above-mentioned problem, we hope to integrate our solution into an all-
 ### The Watch/Gauntlet/Mech-suit Arm/Thanos' Glove
 ![design-1](./image/design1.png)
 
-### Tram & People Tracking
-![design-2](./image/design2.png)
-To track the trams' live positions and the crowdedness in stations, the other two raspberry pi's were used along with the pi-camera. However, for the purposes of testing and faster runtimes, the scripts were instead run on our computer with connected webcams. Tram-tracking was done with the help of OpenCV functions to filter out the moving trams.
-
-
 The watch was built with the following:
 - Raspberry Pi
 - Waveshare 2.13inch E-Paper (D)
