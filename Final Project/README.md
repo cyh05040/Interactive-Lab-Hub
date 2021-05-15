@@ -120,7 +120,6 @@ Both trams’ positions and the number of people in each station were sent over 
 ![prototype-16](./image/IMG_2723.jpeg)
 
 ### Final Video 
-### Video of Display Design
 [![Final-Video](http://img.youtube.com/vi/3U7PffEai8A/0.jpg)](https://youtu.be/3U7PffEai8A "Display")
 
 ## Reflection
