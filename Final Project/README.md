@@ -37,11 +37,11 @@ Introducing TramWatch, a real-time tram tracking smart watch which provides live
 
 You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
 
-Justin Liu jl4275
+Justin Liu jl4275 - Tram Tracking
 
-Angus (Ting-Yu) Lin tl799
+Angus (Ting-Yu) Lin tl799 - Crowd Counting
 
-Eric (Yen-Hao) Chen yc2645 
+Eric (Yen-Hao) Chen yc2645 - Tram Watch
 
 ## Description
 Your project is to design and build an interactive device to suit a specific application of your choosing. 
